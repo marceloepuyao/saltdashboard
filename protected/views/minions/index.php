@@ -13,9 +13,6 @@ $this->breadcrumbs=array(
 
 <?php echo CHtml::textField('Text'); ?>
 
-<?php echo CHtml::dropDownList('más acciones', null, 
-              array('1' => 'Action 1', '2' => 'Action 2', '3' => 'Action 3'));
-?>
 
 <?php $this->widget('bootstrap.widgets.TbButton', array(
     'buttonType'=>'button',
