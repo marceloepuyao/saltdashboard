@@ -13,7 +13,7 @@ $this->breadcrumbs=array(
 
 <?php echo CHtml::textField('Text'); ?>
 
-<?php echo CHtml::dropDownList('más acciones', null, 
+<?php echo CHtml::dropDownList('mÃ¡s acciones', null, 
               array('1' => 'Action 1', '2' => 'Action 2', '3' => 'Action 3'));
 ?>
 
