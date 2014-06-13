@@ -1,0 +1,475 @@
+2014/06/04 20:45:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 07:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 07:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 07:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 07:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 07:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 08:01:01 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\saltdashboard\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php(20): spl_autoload_call()
+#1 C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\saltdashboard\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 C:\xampp\htdocs\saltdashboard\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\saltdashboard\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(105): LoginForm->validate()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/site/login
+in C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php (20)
+in C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php (105)
+2014/06/09 08:01:33 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\xampp\htdocs\saltdashboard\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php(27): CComponent->__set('_id', '1')
+#1 C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\saltdashboard\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\saltdashboard\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\saltdashboard\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(105): CModel->validate()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/saltdashboard/site/login
+HTTP_REFERER=http://localhost/saltdashboard/site/login
+---
+2014/06/09 08:02:15 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\saltdashboard\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php(31): spl_autoload_call()
+#1 C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\saltdashboard\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 C:\xampp\htdocs\saltdashboard\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\saltdashboard\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(105): LoginForm->validate()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/site/login
+in C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php (31)
+in C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php (105)
+2014/06/09 08:05:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.lastname" is not defined.' in C:\xampp\htdocs\saltdashboard\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\auth\CWebUser.php(146): CComponent->__get('lastname')
+#1 C:\xampp\htdocs\saltdashboard\themes\bootstrap\views\layouts\main.php(34): CWebUser->__get('lastname')
+#2 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\saltdashboard\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\saltdashboard\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\saltdashboard\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\saltdashboard\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(109): CController->render('login', Array)
+#14 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/saltdashboard/site/login
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 08:05:54 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.lastname" is not defined.' in C:\xampp\htdocs\saltdashboard\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\auth\CWebUser.php(146): CComponent->__get('lastname')
+#1 C:\xampp\htdocs\saltdashboard\themes\bootstrap\views\layouts\main.php(34): CWebUser->__get('lastname')
+#2 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\saltdashboard\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\saltdashboard\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\saltdashboard\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\saltdashboard\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(109): CController->render('login', Array)
+#14 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/saltdashboard/site/login
+---
+2014/06/09 08:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 08:16:00 [error] [php] Undefined variable: model (C:\xampp\htdocs\saltdashboard\protected\views\user\index.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\saltdashboard\protected\controllers\UserController.php(128): UserController->render()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): UserController->run()
+#13 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/user/index
+in C:\xampp\htdocs\saltdashboard\protected\views\user\index.php (39)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/09 08:16:33 [error] [php] Undefined variable: model (C:\xampp\htdocs\saltdashboard\protected\views\user\index.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\saltdashboard\protected\controllers\UserController.php(128): UserController->render()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): UserController->run()
+#13 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/user/index
+in C:\xampp\htdocs\saltdashboard\protected\views\user\index.php (39)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/09 08:17:50 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "admin".' in C:\xampp\htdocs\saltdashboard\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 C:\xampp\htdocs\saltdashboard\protected\controllers\UserController.php(132): CController->render('admin', Array)
+#2 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\saltdashboard\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index')
+#13 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/saltdashboard/user/index
+---
+2014/06/09 08:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/view".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('view/view')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/view/2
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 08:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/view".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('view/view')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/view/2
+---
+2014/06/09 09:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 21:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/09 21:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/user/index
+---
+2014/06/09 21:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/12 05:35:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/12 05:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/12 05:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/13 00:35:04 [error] [exception.CException] exception 'CException' with message 'Property "User.superuser" is not defined.' in C:\xampp\htdocs\saltdashboard\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\db\ar\CActiveRecord.php(145): CComponent->__get('superuser')
+#1 C:\xampp\htdocs\saltdashboard\framework\validators\CNumberValidator.php(78): CActiveRecord->__get('superuser')
+#2 C:\xampp\htdocs\saltdashboard\framework\validators\CValidator.php(213): CNumberValidator->validateAttribute(Object(User), 'superuser')
+#3 C:\xampp\htdocs\saltdashboard\framework\base\CModel.php(159): CValidator->validate(Object(User), NULL)
+#4 C:\xampp\htdocs\saltdashboard\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\xampp\htdocs\saltdashboard\protected\components\UserIdentity.php(36): CActiveRecord->save()
+#6 C:\xampp\htdocs\saltdashboard\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#7 C:\xampp\htdocs\saltdashboard\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#8 C:\xampp\htdocs\saltdashboard\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#9 C:\xampp\htdocs\saltdashboard\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#10 C:\xampp\htdocs\saltdashboard\protected\controllers\SiteController.php(105): CModel->validate()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('login')
+#16 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#17 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/saltdashboard/site/login
+HTTP_REFERER=http://localhost/saltdashboard/site/login
+---
+2014/06/13 00:37:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1. The SQL statement executed was: INSERT INTO `users` (`id`, `email`, `name`, `lastname`, `password`, `firstaccess` , `lastaccess`, `lang`, `modified`) VALUES
+		(NULL, 'admin', 'Admin', '', '$1$cv/./Y..$xbSwfJExzBMLD2IrTAeqU/', '1402612636', '1402612636' , 'es', 1, '1402612636'  )
+		.
+in C:\xampp\htdocs\saltdashboard\protected\controllers\AdminController.php (44)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/13 00:52:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\saltdashboard\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\saltdashboard\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\saltdashboard\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('User/update/sit...')
+#10 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/saltdashboard/User/update/site/index
+HTTP_REFERER=http://localhost/saltdashboard/User/update/2
+---
+2014/06/13 00:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "minions/index".' in C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController('minions/index')
+#1 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\saltdashboard\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/saltdashboard/minions/index?view=about
+HTTP_REFERER=http://localhost/saltdashboard/site/dashboard
+---
+2014/06/13 01:09:02 [error] [php] Use of undefined constant CentOS - assumed 'CentOS' (C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): MinionsController->runAction()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): MinionsController->runActionWithFilters()
+#2 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): MinionsController->run()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/minions/index
+in C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php (10)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/13 01:10:06 [error] [php] Undefined index: id (C:\xampp\htdocs\saltdashboard\framework\web\CArrayDataProvider.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\CBaseListView.php(136): TbGridView->renderKeys()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(173): TbGridView->run()
+#2 C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php(28): MinionsController->widget()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): MinionsController->renderInternal()
+#5 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): MinionsController->renderFile()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): MinionsController->renderPartial()
+#7 C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php(28): MinionsController->render()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): MinionsController->actionIndex()
+#9 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): MinionsController->runAction()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): MinionsController->runActionWithFilters()
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): MinionsController->run()
+#13 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/minions/index
+in C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php (28)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php (28)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/13 01:14:38 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\saltdashboard\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#3 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#4 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#5 unknown(0): TbGridView->renderSection()
+#6 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#7 C:\xampp\htdocs\saltdashboard\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(173): TbGridView->run()
+#9 C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php(28): MinionsController->widget()
+#10 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\saltdashboard\framework\web\CBaseController.php(95): MinionsController->renderInternal()
+#12 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): MinionsController->renderFile()
+#13 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): MinionsController->renderPartial()
+#14 C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php(28): MinionsController->render()
+#15 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): MinionsController->actionIndex()
+#16 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): MinionsController->runAction()
+#18 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): MinionsController->runActionWithFilters()
+#19 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): MinionsController->run()
+#20 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/minions/index
+in C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php (28)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php (28)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/13 01:22:08 [error] [php] Undefined variable: model (C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): MinionsController->renderFile()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): MinionsController->renderPartial()
+#2 C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php(28): MinionsController->render()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): MinionsController->actionIndex()
+#4 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): MinionsController->runAction()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): MinionsController->runActionWithFilters()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): MinionsController->run()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/minions/index
+in C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php (17)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php (28)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
+2014/06/13 02:18:42 [error] [php] Undefined variable: select (C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php:10)
+Stack trace:
+#0 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(869): MinionsController->renderFile()
+#1 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(782): MinionsController->renderPartial()
+#2 C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php(28): MinionsController->render()
+#3 C:\xampp\htdocs\saltdashboard\framework\web\actions\CInlineAction.php(49): MinionsController->actionIndex()
+#4 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(286): MinionsController->runAction()
+#6 C:\xampp\htdocs\saltdashboard\framework\web\CController.php(265): MinionsController->runActionWithFilters()
+#7 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(282): MinionsController->run()
+#8 C:\xampp\htdocs\saltdashboard\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\saltdashboard\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\saltdashboard\index.php(13): CWebApplication->run()
+REQUEST_URI=/saltdashboard/minions/index
+in C:\xampp\htdocs\saltdashboard\protected\views\minions\index.php (10)
+in C:\xampp\htdocs\saltdashboard\protected\controllers\MinionsController.php (28)
+in C:\xampp\htdocs\saltdashboard\index.php (13)
